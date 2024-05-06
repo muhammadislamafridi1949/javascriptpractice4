@@ -210,5 +210,63 @@
 // Extract the hours, reset the date object an hour ahead and 
 // finally display the date object in your browser. 
 
+// let currentDat = new Date()
+// let currentDate = new Date();
+// let currentHours = currentDate.getHours();
+// currentDate.setHours(currentHours - 1);
+// alert("current date: " , currentDat , " 1 hour ago,it was " , currentDate);
+
+// 12. Write a program that creates a date object and show the 
+// date in an alert box that is reset to 100 years back?
+
+// let currentDat = new Date()
+// let currentDate = new Date();
+// let currentHours = currentDate.getFullYear();
+// currentDate.setFullYear(currentHours - 100);
+// document.write("current date: " , currentDat , " 100 years ago,it was " , currentDate);
+
+// 13. Write a program to ask the user about his age. Calculate 
+// and show his birth year in your browser. 
+
+// let age = +prompt("Enter your age ")
+// let currentDat = new Date()
+// let currentDate = new Date();
+// let currentHours = currentDate.getFullYear();
+// let currentDa = (currentHours - age);
+// document.write("Your age is " , age , "<br>");
+// document.write("Your birth year is " , currentDa)
+
+// 14. Write a program to generate your K-Electric bill in your 
+// browser. All the amounts should be rounded off to 2 
+// decimal places. Display the following fields: 
+// a. Customer Name 
+// b. Current Month 
+// c. Number of units 
+// d. Charges per unit 
+// e. Net Amount Payable (within Due Date) 
+// f. Late Payment Surcharge 
+// g. Gross Amount Payable (after Due Date) 
+// Where, 
+
+// var a = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+// var date = new Date () .getMonth()
+// var random = Math.random()*500
+// var round = Math.round(random)
+// var bill = round*16
+// var lateChar = round-55
+// var gross = lateChar+bill
+// document.write("<h1>K-Electric Bill</h1>")
+// document.write("Customer Name: <b>ABC customer</b><br>")
+// document.write("Month: " + a[date] ,"<br>")
+// document.write("Number of units: " , round , "<br>")
+// document.write("Charges per unit : <b>16</b><br><br>")
+// document.write("Net Amount Payable (within Due Date): ",   bill  ,"<br>")
+// document.write("Late Payment Surcharge: " ,lateChar , "<br>")
+// document.write(" Gross Amount Payable (after Due Date): " ,  gross)
+
+
+
+
+
 
 
